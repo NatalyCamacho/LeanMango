@@ -1,13 +1,18 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   overflow-x: hidden;
   font-family: 'Berlin', Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   letter-spacing: 0.08em;
 }
-input {
+input,
+textarea {
   border: 1px solid #fab95e !important;
   padding: 1em !important;
 }
+
 /* Navigation */
 
 .navbar {
@@ -55,7 +60,7 @@ input {
 }
 
 /* Form */
-form {
+.signup-form {
   color: #2c3e50;
   border-radius: 8px;
   width: 30.5em;
@@ -126,6 +131,32 @@ form {
   margin-top: 1em;
 }
 
+/* Contact*/
+.contact {
+  background-color: rgba(40, 49, 59);
+}
+.form-container {
+  width: 60em;
+  height: 50.4em;
+}
+.contact-form {
+  padding: 3rem;
+}
+/* Subscribe */
+.subscribe {
+  background-color: white;
+}
+.subscribe-title {
+  font-size: 2.12em;
+}
+
+/* Footer */
+footer {
+  background: rgba(40, 49, 59) !important;
+  color: white;
+}
+
+/* Responsive */
 @media only screen and (max-width: 576px) {
   .landing {
     height: 145vh !important;
