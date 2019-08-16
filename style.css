@@ -207,6 +207,9 @@ footer {
   .demo-video {
     display: none;
   }
+  .steps-divider {
+    display: none !important;
+  }
   .form-container {
     padding: 0.5em !important;
     max-width: 21em;
