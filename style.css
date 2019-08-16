@@ -186,6 +186,9 @@ footer {
     max-width: 22em;
     padding: 1.5rem;
   }
+  .arrow-btn {
+    display: none;
+  }
   .landing-white-48 {
     font-size: 1.6em !important;
     margin-bottom: 32px;
@@ -205,11 +208,11 @@ footer {
     display: none;
   }
   .form-container {
-    padding: 1em !important;
+    padding: 0.5em !important;
     max-width: 21em;
   }
   .contact {
-    padding: 2em;
+    padding: 1em;
   }
   .contact-form {
     padding: 1rem;
