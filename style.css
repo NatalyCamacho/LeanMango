@@ -1,0 +1,163 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Berlin', Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  letter-spacing: 0.08em;
+}
+input {
+  border: 1px solid #fab95e !important;
+  padding: 1em !important;
+}
+/* Navigation */
+
+.navbar {
+  font-size: 1em;
+  letter-spacing: 0.08em;
+  background: rgba(40, 49, 59) !important;
+}
+.nav-link:hover,
+.nav-link.active {
+  color: #ffffff !important;
+  font-weight: bold;
+  text-shadow: none;
+}
+
+/* -----Landing Page ---- */
+.landing {
+  height: 100vh !important;
+  background: url(./img/background.jpg);
+  background-size: cover;
+}
+.btn-primary {
+  background-color: #f9bd60 !important;
+  border-color: #f9bd60;
+}
+.caption {
+  width: 1200px;
+  position: absolute;
+  top: 10.8em;
+  z-index: 1;
+  color: white;
+}
+.main-info {
+  width: 34.2em;
+}
+.landing-white-48 {
+  font-size: 3em;
+  margin-bottom: 32px;
+}
+.landing-white-26 {
+  font-size: 1.63em;
+  margin-bottom: 40px;
+}
+.landing-white-20 {
+  font-size: 1.25em;
+}
+
+/* Form */
+form {
+  color: #2c3e50;
+  border-radius: 8px;
+  width: 30.5em;
+  height: 30.5em;
+  padding: 3rem;
+}
+.form-heading {
+  font-weight: bold;
+}
+.form-info {
+  background: -webkit-linear-gradient(#ff6337, #f9bd60);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+.form-text {
+  margin-bottom: 2em;
+}
+.btn-form {
+  padding: 1em !important;
+}
+.arrow-btn {
+  margin-top: 8em;
+  border-radius: 50%;
+}
+.steps {
+  background: url(./img/Content_background.jpg);
+  background-size: cover;
+}
+.section-title {
+  font-weight: bold;
+  font-size: 2.12em;
+  color: #2c3e50;
+}
+.first-section p {
+  margin-top: 2em;
+  font-size: 1.12em;
+}
+.simple-steps-title {
+  font-weight: bold;
+}
+.simple-steps-proces {
+  margin-top: 88px;
+}
+.yellow-divider {
+  border: 1px solid #f9bd60;
+  width: 14.3em;
+}
+.steps-divider {
+  width: 72.5em;
+}
+.second-section {
+  margin-top: 3em;
+}
+.section-box {
+  max-height: 15em;
+  width: 22.12em;
+
+  border-radius: 4px;
+  padding: 3em;
+}
+
+/* Projects section */
+#projects {
+  background-color: #fff;
+}
+#projects .section-title {
+  margin-top: 1em;
+}
+
+@media only screen and (max-width: 576px) {
+  .landing {
+    height: 145vh !important;
+  }
+  .caption {
+    width: 380px !important;
+    top: 8em !important;
+  }
+  .main-info {
+    max-width: 28em;
+    padding: 2em !important;
+  }
+  form {
+    max-width: 22em;
+    padding: 1.5rem;
+  }
+  .landing-white-48 {
+    font-size: 1.6em !important;
+    margin-bottom: 32px;
+    text-align: center !important;
+  }
+  .white-16 {
+    margin-top: 3em !important;
+    font-size: 16px !important;
+  }
+  .display-none {
+    display: none;
+  }
+  .second-section {
+    display: none;
+  }
+  .demo-video {
+    display: none;
+  }
+}

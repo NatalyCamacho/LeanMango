@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Icons / Programming</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons-/-Programming" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(1.000000, 6.000000)">
+            <g>
+                <g id="Window">
+                    <path d="M1.26,3.98661035 C1.26,1.78624901 3.07004625,0.00250368944 5.29860804,0.00250368944 L57.701392,0.00250368944 C59.9318536,0.00250368944 61.74,1.7858071 61.74,3.98661035 L61.74,13.9709646 L1.26,13.9709646 L1.26,3.98661035 Z" id="Shape" fill="#F9BD60"></path>
+                    <path d="M1.26,13.9709646 L61.74,13.9709646 L61.74,45.9086745 C61.74,48.1074247 59.9299538,49.889864 57.701392,49.889864 L5.29860804,49.889864 C3.06814637,49.889864 1.26,48.1086402 1.26,45.9086745 L1.26,13.9709646 Z" id="Shape" fill="#FEE7C3" fill-rule="nonzero"></path>
+                    <rect id="Rectangle-path" fill="#FEE7C3" x="5.292" y="3.99349252" width="8.064" height="5.98648324" rx="1.04762196"></rect>
+                    <path d="M18.435622,3.99349252 L56.660378,3.99349252 C57.2389637,3.99349252 57.708,4.46252884 57.708,5.04111448 L57.708,8.93235379 C57.708,9.51093942 57.2389637,9.97997575 56.660378,9.97997575 L18.435622,9.97997575 C17.8570363,9.97997575 17.388,9.51093942 17.388,8.93235379 L17.388,5.04111448 C17.388,4.46252884 17.8570363,3.99349252 18.435622,3.99349252 Z" id="Rectangle-path" fill="#FEE7C3" fill-rule="nonzero"></path>
+                </g>
+                <g id="Code" transform="translate(6.300000, 15.588235)">
+                    <rect id="Rectangle" fill="#2C3E50" x="0" y="0" width="3.15" height="3.11764706" rx="1.55882353"></rect>
+                    <rect id="Rectangle-Copy-4" fill="#2C3E50" x="0" y="9.35294118" width="3.15" height="3.11764706" rx="1.55882353"></rect>
+                    <rect id="Rectangle-Copy-7" fill="#2C3E50" x="0" y="15.5882353" width="3.15" height="3.11764706" rx="1.55882353"></rect>
+                    <rect id="Rectangle-Copy-10" fill="#2C3E50" x="0" y="24.9411765" width="3.15" height="3.11764706" rx="1.55882353"></rect>
+                    <rect id="Rectangle" fill="#2C3E50" x="6.3" y="0" width="9.45" height="3.11764706" rx="1.55882353"></rect>
+                    <rect id="Rectangle-Copy-5" fill="#2C3E50" x="6.3" y="9.35294118" width="9.45" height="3.11764706" rx="1.55882353"></rect>
+                    <rect id="Rectangle-Copy-8" fill="#2C3E50" x="6.3" y="15.5882353" width="9.45" height="3.11764706" rx="1.55882353"></rect>
+                    <rect id="Rectangle-Copy-11" fill="#2C3E50" x="6.3" y="24.9411765" width="9.45" height="3.11764706" rx="1.55882353"></rect>
+                    <rect id="Rectangle" fill="#2C3E50" x="18.9" y="0" width="22.05" height="3.11764706" rx="1.55882353"></rect>
+                    <rect id="Rectangle-Copy-12" fill="#2C3E50" x="18.9" y="24.9411765" width="22.05" height="3.11764706" rx="1.55882353"></rect>
+                    <g id="Group-3" transform="translate(18.900000, 6.235294)" stroke="#F9BD60" stroke-linecap="round" stroke-width="2.55877635">
+                        <g id="Group-2">
+                            <path d="M8.27216914,2.59871896 L2.57778495,7.19039919" id="Line-3" transform="translate(5.424977, 4.894559) rotate(-178.340192) translate(-5.424977, -4.894559) "></path>
+                            <path d="M2.65898901,7.67413536 L8.35872646,11.5761739" id="Line-4" transform="translate(5.508858, 9.625155) rotate(6.832264) translate(-5.508858, -9.625155) "></path>
+                        </g>
+                        <g id="Group-2-Copy" transform="translate(22.193182, 7.794118) scale(-1, 1) translate(-22.193182, -7.794118) translate(15.750000, 0.000000)">
+                            <path d="M8.27216914,2.59871896 L2.57778495,7.19039919" id="Line-3" transform="translate(5.424977, 4.894559) rotate(-178.340192) translate(-5.424977, -4.894559) "></path>
+                            <path d="M2.65898901,7.67413536 L8.35872646,11.5761739" id="Line-4" transform="translate(5.508858, 9.625155) rotate(6.832264) translate(-5.508858, -9.625155) "></path>
+                        </g>
+                        <path d="M11.5977273,12.9901961 L16.7522727,1.29901961" id="Line-5"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

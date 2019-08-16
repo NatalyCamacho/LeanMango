@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Icons / Component</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons-/-Component" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-Brain" transform="translate(5.000000, 5.000000)">
+            <g id="Icons-/-Controller-">
+                <g id="Chip-Connectors" transform="translate(13.750000, 0.000000)" stroke="#F9BD60" stroke-linecap="round" stroke-width="2.230272">
+                    <path d="M1.05769231,1.14583333 L1.05769231,8.02083333" id="Line"></path>
+                    <path d="M7.40384615,1.14583333 L7.40384615,8.02083333" id="Line-Copy"></path>
+                    <path d="M13.75,1.14583333 L13.75,8.02083333" id="Line-Copy-2"></path>
+                    <path d="M20.0961538,1.14583333 L20.0961538,8.02083333" id="Line-Copy-3"></path>
+                    <path d="M26.4423077,1.14583333 L26.4423077,8.02083333" id="Line-Copy-4"></path>
+                </g>
+                <g id="Chip-Connectors-Copy" transform="translate(49.711538, 28.645833) rotate(90.000000) translate(-49.711538, -28.645833) translate(35.961538, 24.062500)" stroke="#F9BD60" stroke-linecap="round" stroke-width="2.230272">
+                    <path d="M1.05769231,1.14583333 L1.05769231,8.02083333" id="Line"></path>
+                    <path d="M7.40384615,1.14583333 L7.40384615,8.02083333" id="Line-Copy"></path>
+                    <path d="M13.75,1.14583333 L13.75,8.02083333" id="Line-Copy-2"></path>
+                    <path d="M20.0961538,1.14583333 L20.0961538,8.02083333" id="Line-Copy-3"></path>
+                    <path d="M26.4423077,1.14583333 L26.4423077,8.02083333" id="Line-Copy-4"></path>
+                </g>
+                <g id="Chip-Connectors-Copy-2" transform="translate(27.500000, 50.416667) rotate(180.000000) translate(-27.500000, -50.416667) translate(13.750000, 45.833333)" stroke="#F9BD60" stroke-linecap="round" stroke-width="2.230272">
+                    <path d="M1.05769231,1.14583333 L1.05769231,8.02083333" id="Line"></path>
+                    <path d="M7.40384615,1.14583333 L7.40384615,8.02083333" id="Line-Copy"></path>
+                    <path d="M13.75,1.14583333 L13.75,8.02083333" id="Line-Copy-2"></path>
+                    <path d="M20.0961538,1.14583333 L20.0961538,8.02083333" id="Line-Copy-3"></path>
+                    <path d="M26.4423077,1.14583333 L26.4423077,8.02083333" id="Line-Copy-4"></path>
+                </g>
+                <g id="Chip-Connectors-Copy-3" transform="translate(5.288462, 28.645833) rotate(270.000000) translate(-5.288462, -28.645833) translate(-8.461538, 24.062500)" stroke="#F9BD60" stroke-linecap="round" stroke-width="2.230272">
+                    <path d="M1.05769231,1.14583333 L1.05769231,8.02083333" id="Line"></path>
+                    <path d="M7.40384615,1.14583333 L7.40384615,8.02083333" id="Line-Copy"></path>
+                    <path d="M13.75,1.14583333 L13.75,8.02083333" id="Line-Copy-2"></path>
+                    <path d="M20.0961538,1.14583333 L20.0961538,8.02083333" id="Line-Copy-3"></path>
+                    <path d="M26.4423077,1.14583333 L26.4423077,8.02083333" id="Line-Copy-4"></path>
+                </g>
+                <rect id="Rectangle" fill="#2C3E50" x="7.40384615" y="5.72916667" width="40.1923077" height="43.5416667" rx="2.230272"></rect>
+                <ellipse id="Oval" fill="#F9BD60" cx="13.75" cy="11.4583333" rx="2.11538462" ry="2.29166667"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
