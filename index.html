@@ -317,7 +317,7 @@
 
     <!--Testimonies section-->
     <!--Contact us section-->
-    <div id="contact" class="contact p-5">
+    <div id="contact" class="contact p-md-5">
       <div class="container form-container bg-white border rounded p-5">
         <h2 class="form-heading mb-4 text-center">Contact us</h2>
         <p class="text-center">
@@ -328,9 +328,9 @@
           <div class="col-md-12">
             <form class="contact-form">
               <div class="form-group">
-                <label for="Name">Name</label>
+                <label for="Name">Name*</label>
                 <input
-                  type="email"
+                  type="text"
                   class="form-control"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
@@ -338,28 +338,32 @@
                 />
               </div>
               <div class="form-group">
-                <label for="Email">Password</label>
+                <label for="Email">Email Address*</label>
                 <input
-                  type="password"
+                  type="email"
                   class="form-control"
                   id="exampleInputPassword1"
-                  placeholder="Password"
+                  placeholder="Enter your email address..."
                 />
               </div>
               <div class="form-group">
-                <label for="Message">Password</label>
+                <label for="Message">Subject*</label>
                 <input
-                  type="password"
+                  type="text"
                   class="form-control"
                   id="exampleInputPassword1"
-                  placeholder="Password"
+                  placeholder=""
                 />
               </div>
               <div class="form-group">
-                <label for="comment">Comment</label>
+                <label for="comment">Message*</label>
                 <textarea class="form-control" rows="5" id="comment"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Contact</button>
+              <div class="form-button text-center pt-2">
+                <button type="submit" class="btn btn-primary button-contact">
+                  Contact
+                </button>
+              </div>
             </form>
           </div>
         </div>
@@ -372,6 +376,33 @@
           Subscribe to get early access and have a chance of winning a 20% off
           in your first order!
         </h1>
+      </div>
+      <div class="subscribe p-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <form class="form-inline subscribe-form">
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="subscribe-email"
+                    placeholder="Enter your email address..."
+                    size="35"
+                  />
+                </div>
+                <div class="form-button text-center pt-2">
+                  <button
+                    type="submit"
+                    class="btn btn-primary button-subscribe"
+                  >
+                    Contact
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Footer -->

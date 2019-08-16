@@ -142,14 +142,27 @@ textarea {
 .contact-form {
   padding: 3rem;
 }
+.button-contact {
+  padding: 12px 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  width: 20em;
+}
 /* Subscribe */
 .subscribe {
   background-color: white;
 }
+
 .subscribe-title {
   font-size: 2.12em;
 }
-
+.button-subscribe {
+  padding: 12px 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  width: 10em;
+  margin-left: 3.5em;
+}
 /* Footer */
 footer {
   background: rgba(40, 49, 59) !important;
@@ -167,10 +180,10 @@ footer {
   }
   .main-info {
     max-width: 28em;
-    padding: 2em !important;
+    padding: 1em 2em !important;
   }
-  form {
-    max-width: 22em;
+  .signup-form {
+    max-width: 24em;
     padding: 1.5rem;
   }
   .landing-white-48 {
@@ -190,5 +203,23 @@ footer {
   }
   .demo-video {
     display: none;
+  }
+  .form-container {
+    padding: 1em !important;
+    max-width: 22em;
+  }
+  .contact {
+    padding: 2em;
+  }
+  .contact-form {
+    padding: 1rem;
+  }
+  .button-contact {
+    width: 12em;
+  }
+
+  /* Subscribe */
+  .button-subscribe {
+    margin-left: 0;
   }
 }
