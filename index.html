@@ -18,6 +18,11 @@
       crossorigin="anonymous"
     />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
       rel="shortcut icon"
       href="./img/leanmango-favicon.ico"
       type="image/x-icon"
@@ -74,19 +79,19 @@
       <div class="caption text-sm-left">
         <div class="row">
           <div class="col-sm-6 main-info">
-            <h1 class="landing-white-48">
+            <h1 class="landing-white-48 animated fadeInDown">
               Make IOT products in few simple steps.
             </h1>
-            <h2 class="landing-white-26 white-16">
+            <h2 class="landing-white-26 white-16 animated fadeInDown">
               Are you looking for a new way to make IoT Products?
             </h2>
-            <p class="landing-white-20 display-none">
+            <p class="landing-white-20 display-none animated fadeInDown">
               LeanMango is an online platform for startups, companies and
               hobbyists who want to make a complete IoT prototype, from
               electronics, software, and enclosure.
             </p>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-6 signup-form-padding animated fadeInDown">
             <form class="border border-light bg-white signup-form" action="">
               <h2 class="form-heading">Sign Up</h2>
               <p class="form-info">
@@ -122,7 +127,9 @@
           </div>
         </div>
         <div class="container text-center mt-5">
-          <a class="btn btn-outline-light arrow-btn" href="#projects"
+          <a
+            class="btn btn-outline-light arrow-btn animated fadeInDown"
+            href="#projects"
             ><i class="fas fa-arrow-down"></i
           ></a>
         </div>
@@ -134,7 +141,7 @@
     <!-- How it works first section -->
     <div id="works" class="jumbotron text-center steps">
       <div class="container first-section">
-        <h1 class="section-title">
+        <h1 class="section-title" data-aos="fade-down">
           Create IOT products yourself with simple steps
         </h1>
         <p>
@@ -200,7 +207,9 @@
 
       <!-- Second section of the steps process-->
       <div class="container second-section">
-        <h1 class="section-title second-section">Complete Process</h1>
+        <h1 class="section-title second-section" data-aos="fade-down">
+          Complete Process
+        </h1>
         <div class="row text-center mt-5">
           <div class="col-md-4 section-box">
             <div class="projects-col">
@@ -296,7 +305,9 @@
 
       <!-- Third section video -->
       <div class="container demo-video text-center mt-5">
-        <h1 class="section-title second-section mb-5">Watch demo video</h1>
+        <h1 class="section-title second-section mb-5" data-aos="fade-down">
+          Watch demo video
+        </h1>
         <img src="./img/play_video.jpg" alt="Demo video" />
       </div>
     </div>
@@ -305,7 +316,9 @@
 
     <div id="projects" class="jumbotron text-center">
       <div class="container-projects">
-        <h1 class="section-title second-section">Projects</h1>
+        <h1 class="section-title second-section" data-aos="fade-down">
+          Projects
+        </h1>
         <p class="text-center mt-sm-5">
           LivingHub: smart home hub used to control lighting doors and other
           home automation elements created by LeanMango
@@ -370,7 +383,7 @@
       </div>
     </div>
     <!-- Subscribe section-->
-    <div class="jumbotron subscribe">
+    <div class="jumbotron subscribe" data-aos="fade-down">
       <div class="container text-center">
         <h1 class="subscribe-title">
           Subscribe to get early access and have a chance of winning a 20% off
@@ -430,5 +443,9 @@
       integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
