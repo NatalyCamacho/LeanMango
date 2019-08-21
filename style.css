@@ -120,7 +120,7 @@ textarea {
   width: 72.5em;
 }
 .second-section {
-  margin-top: 3em;
+  margin-top: 2em;
 }
 .section-box {
   max-height: 15em;
@@ -149,7 +149,8 @@ textarea {
 .contact-form {
   padding: 3rem;
 }
-.button-contact {
+.button-contact,
+.btn-build {
   padding: 12px 20px;
   font-size: 20px;
   border-radius: 8px;
@@ -168,7 +169,6 @@ textarea {
   font-size: 20px;
   border-radius: 8px;
   width: 10em;
-  margin-left: 3.5em;
 }
 /* Footer */
 footer {
@@ -211,7 +211,7 @@ footer {
   .second-section {
     display: none;
   }
-  .demo-video {
+  .third-section {
     display: none;
   }
   .steps-divider {
@@ -233,6 +233,6 @@ footer {
 
   /* Subscribe */
   .button-subscribe {
-    margin-left: 0;
+    margin-left: 3em;
   }
 }

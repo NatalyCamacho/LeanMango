@@ -57,10 +57,10 @@
               <a class="nav-link" href="#works">How it works?</a>
             </li>
             <li class="nav-item ml-auto">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#prototype">Build</a>
             </li>
             <li class="nav-item ml-auto">
-              <a class="nav-link" href="#">Testimonies</a>
+              <a class="nav-link" href="#testimonies">Testimonies</a>
             </li>
             <li class="nav-item ml-auto">
               <a class="nav-link" href="#contact">Contact</a>
@@ -302,33 +302,80 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- Build Now Section-->
 
       <!-- Third section video -->
-      <div class="container demo-video text-center mt-5">
-        <h1 class="section-title second-section mb-5" data-aos="fade-down">
-          Watch demo video
-        </h1>
-        <img src="./img/play_video.jpg" alt="Demo video" />
+      <div id="prototype" class="container third-section text-center">
+       <div class="row">
+         <div class="col-md-12">
+            <h1 class="section-title second-section mb-5" data-aos="fade-down">
+              Create your prototype now!
+            </h1>
+            <p>
+              Go to our online platform and start creating your prototype
+            </p>
+         </div>
+         <div class="col-md-12">
+          <img class="border" src="./img/buildnow.svg" alt="Demo video" />
+         </div>
+         <div class="col-md-12 mt-5">
+             <button type="submit" class="btn btn-primary btn-build">
+                Let's build!
+              </button>
+         </div>
+       </div>
+      </div>
+    <!-- End Build Now Section-->
+
+    <!-- Start Testimonies Section-->
+      <div id="testimonies" class="container p-md-5">
+        <div class="row text-center">
+          <div class="col-sm-6 offset-3 text-center">
+            <h1 class="section-title second-section" data-aos="fade-down">
+              Testimonies
+            </h1>
+          </div>
+          </div>
+          <div class="row offset-1 text-center">
+          <div class="col-md-5 card text-center mt-5 mb-5 mr-sm-5">
+            <div class="card-body">
+              <blockquote class="card-bodyquote">
+                <p class="card-text">
+                  “Jumping from a prototype to a ready-to-show product is always
+                  a challenge. As a Startup, this task becomes harder having to
+                  think about the clients, the business model, and the
+                  employees. LeanMango helped us tackle this challenge to get
+                  our product ready to send to a possible client. The level of
+                  professionalism and presentation gave us an extra point with
+                  that client.”
+                </p>
+              </blockquote>
+              <h4 class="card-title">German Torres</h4>
+              <h6 class="card-subtitle text-muted">RumboMobile Founder</h6>
+            </div>
+          </div>
+          <div class="col-md-5 card text-center mt-5 mb-5">
+            <div class="card-body">
+              <blockquote class="card-bodyquote">
+                <p class="card-text">
+                  “As a software developer, being able to focus on the overall
+                  architecture of the solution and not worry about the execution
+                  of the hardware is a relief. With LeanMango we found a partner
+                  in the product development and the results were better than
+                  expected. That saved us much time and allow us to be ready to
+                  market sooner than we expected.”
+                </p>
+              </blockquote>
+              <h4 class="card-title">Gabriel Farah</h4>
+              <h6 class="card-subtitle text-muted">AR-Smart Founder</h6>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <!-- Start Projects Section-->
-
-    <div id="projects" class="jumbotron text-center">
-      <div class="container-projects">
-        <h1 class="section-title second-section" data-aos="fade-down">
-          Projects
-        </h1>
-        <p class="text-center mt-sm-5">
-          LivingHub: smart home hub used to control lighting doors and other
-          home automation elements created by LeanMango
-        </p>
-      </div>
-    </div>
-
-    <!-- End Projects Section-->
-
-    <!--Testimonies section-->
     <!--Contact us section-->
     <div id="contact" class="contact p-md-5">
       <div class="container form-container bg-white border rounded p-5">
@@ -382,44 +429,38 @@
         </div>
       </div>
     </div>
-    <!-- Subscribe section-->
-    <div class="jumbotron subscribe" data-aos="fade-down">
-      <div class="container text-center">
+    <!--End Contact Us Section-->
+
+    <!-- Subscribe-->
+    <div class="row" data-aos="fade-down">
+      <div class="col-sm-6 offset-sm-3 text-center p-4">
         <h1 class="subscribe-title">
           Subscribe to get early access and have a chance of winning a 20% off
           in your first order!
         </h1>
       </div>
-      <div class="subscribe p-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <form class="form-inline subscribe-form">
-                <div class="form-group">
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="subscribe-email"
-                    placeholder="Enter your email address..."
-                    size="35"
-                  />
-                </div>
-                <div class="form-button text-center pt-2">
-                  <button
-                    type="submit"
-                    class="btn btn-primary button-subscribe"
-                  >
-                    Contact
-                  </button>
-                </div>
-              </form>
-            </div>
+      <div class="col-sm-6 offset-sm-4 p-4">
+        <form class="form-inline subscribe-form p-4">
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control mr-4"
+              id="subscribe-email"
+              placeholder="Enter your email address..."
+              size="35"
+            />
           </div>
-        </div>
+          <div class="form-button text-center p-2">
+            <button type="submit" class="btn btn-primary button-subscribe">
+              Subscribe
+            </button>
+          </div>
+        </form>
       </div>
     </div>
-    <!-- Footer -->
+    <!-- End Subscribe-->
 
+    <!-- Footer -->
     <footer class="page-footer font-small blue pt-4">
       <!-- Copyright -->
       <div class="footer-copyright text-center py-3">
@@ -427,6 +468,7 @@
       </div>
       <!-- Copyright -->
     </footer>
+    <!-- End footer-->
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
